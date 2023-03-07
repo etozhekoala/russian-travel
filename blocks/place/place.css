@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        grid-template: repeat(1, auto) / minmax(auto, 320px);
+        grid-template-columns: 100%;
         gap: 32px;
     }
 }
