@@ -1,4 +1,5 @@
-.photo__grid {
+.photo-grid__item {
     width: 100%;
     object-fit: cover;
+    display: block;
 }
