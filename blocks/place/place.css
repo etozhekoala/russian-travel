@@ -1,26 +1,26 @@
 .place {
-    display: grid;
-    grid-template: repeat(2, auto) / minmax(auto, 460px) minmax(auto, 484px);
-    gap: 48px 40px;
+  display: grid;
+  grid-template: repeat(2, auto) / minmax(auto, 460px) minmax(auto, 484px);
+  gap: 48px 40px;
 }
 
 @media screen and (max-width: 1279px) {
-    .place {
-        grid-template: repeat(2, auto) / minmax(auto, 440px) minmax(auto, 456px);
-        gap: 48px 32px;
-    }
+  .place {
+    grid-template: repeat(2, auto) / minmax(auto, 440px) minmax(auto, 456px);
+    gap: 48px 32px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place {
-        grid-template: repeat(2, auto) / minmax(auto, 340px) minmax(auto, 352px);
-        gap: 48px 28px;
-    }
+  .place {
+    grid-template: repeat(2, auto) / minmax(auto, 340px) minmax(auto, 352px);
+    gap: 48px 28px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place {
-        grid-template-columns: 100%;
-        gap: 32px;
-    }
+  .place {
+    grid-template-columns: 100%;
+    gap: 32px;
+  }
 }

@@ -1,20 +1,20 @@
 .footer {
-    margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 1280px;
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-bottom: 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1280px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1023px) {
-    .footer {
-        padding: 0 24px 24px 24px;
-    }
+  .footer {
+    padding: 0 24px 24px 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .footer {
-        padding: 0 16px 24px 16px;
-    }
+  .footer {
+    padding: 0 16px 24px 16px;
+  }
 }
